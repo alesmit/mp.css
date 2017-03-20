@@ -1,0 +1,31 @@
+{
+  "name": "mp.css",
+  "version": "1.0.0",
+  "description": "CSS utility for common use cases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alesmit/mp.css.git"
+  },
+  "keywords": [
+    "css",
+    "utility",
+    "mp.css"
+  ],
+  "author": "Alessandro Mitelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alesmit/mp.css/issues"
+  },
+  "homepage": "https://github.com/alesmit/mp.css#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.4.1"
+  }
+}
