@@ -1,0 +1,16 @@
+/* Position */
+.pr {
+    position: relative !important
+}
+
+.pa {
+    position: absolute !important
+}
+
+.pf {
+    position: fixed !important
+}
+
+.ps {
+    position: static !important
+}
