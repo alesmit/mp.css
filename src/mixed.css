@@ -3,6 +3,11 @@
     vertical-align: middle !important
 }
 
+/* Cursors */
+.cur-pointer {
+    cursor: pointer;
+}
+
 /* Hidden span */
 span.span-hidden {
     color: transparent;

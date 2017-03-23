@@ -15,7 +15,7 @@ This project uses [gulp](http://gulpjs.com/) as its build system.
 - Install gulp: `$ npm install -g gulp`
 
 1. Install dependencies: `$ npm install`
-2. Build: `$ gulp build`
+2. Build: `$ gulp minify`
 
 ## License
 
