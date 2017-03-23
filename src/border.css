@@ -265,3 +265,7 @@
 .bc-indigo {
     border-color: #3f51b5 !important
 }
+
+.bc-transparent {
+    border-color: transparent !important
+}

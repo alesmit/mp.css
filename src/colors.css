@@ -91,6 +91,10 @@
     color: #3f51b5 !important
 }
 
+.c-transparent {
+    color: transparent !important;
+}
+
 /* Material Background Colors */
 .bg-white {
     background-color: #ffffff !important
@@ -184,3 +188,6 @@
     background-color: #3f51b5 !important
 }
 
+.bg-transparent {
+    background-color: transparent !important;
+}
