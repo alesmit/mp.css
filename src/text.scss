@@ -1,0 +1,64 @@
+// align
+$text-align-opts: (
+        r: right,
+        l: left,
+        c: center,
+        j: justify
+);
+
+@each $a, $align in $text-align-opts {
+  .ta#{$a} {
+    text-align: $align !important;
+  }
+}
+
+// size
+@for $i from 1 to 51 {
+  $size: $i / 10;
+  .fs#{$i} {
+    font-size: #{$size}em !important;
+  }
+}
+
+// line height
+@for $i from 1 to 21 {
+  $val: $i / 10;
+  .lh#{$i} {
+    line-height: $val !important;
+  }
+}
+
+// transform
+$text-transform-opts: (
+        n: none,
+        u: uppercase,
+        l: lowercase,
+        c: capitalize,
+);
+
+@each $tt, $transform in $text-transform-opts {
+  .tt#{$tt} {
+    text-transform: $transform !important;
+  }
+}
+
+// letter spacing
+@for $i from 0 to 11 {
+  .ls#{$i} {
+    letter-spacing: #{$i}px !important;
+  }
+}
+
+// font weight
+@for $i from 1 to 10 {
+  .fw#{$i} {
+    font-weight: ($i * 100) !important;
+  }
+}
+
+.fwb {
+  font-weight: bold !important;
+}
+.fwn {
+  font-weight: normal !important;
+}

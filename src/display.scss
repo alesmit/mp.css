@@ -1,0 +1,28 @@
+$display-opts: (
+        b: block,
+        t: table,
+        f: flex
+);
+
+@each $d, $display in $display-opts {
+  .d#{$d} {
+    display: $display !important;
+  }
+  .di#{$d} {
+    display: inline-#{$display} !important;
+  }
+}
+
+.dn, .hide {
+  display: none;
+}
+.di {
+  display: inline;
+}
+
+// flex box
+@for $i from 1 to 13 {
+  .flex#{$i} {
+    flex: $i;
+  }
+}

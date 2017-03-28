@@ -1,0 +1,21 @@
+@for $i from 0 to 155 {
+
+  @if ($i <= 20 or $i % 5 == 0) {
+    .p#{$i} {
+      padding: #{$i}px !important;
+    }
+    .pt#{$i} {
+      padding-top: #{$i}px !important;
+    }
+    .pb#{$i} {
+      padding-bottom: #{$i}px !important;
+    }
+    .pr#{$i} {
+      padding-right: #{$i}px !important;
+    }
+    .pl#{$i} {
+      padding-left: #{$i}px !important;
+    }
+  }
+
+}
