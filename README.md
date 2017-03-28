@@ -1,5 +1,5 @@
 # mp.css
-CSS utility for common use cases
+CSS utility classes for common use cases
 
 mp.css is a set of CSS classes which can be used to style elements in a fast way. Just because writing in the `style` attr is ugly :wink:
 
@@ -16,7 +16,7 @@ This project uses [gulp](http://gulpjs.com/) as its build system.
 - Install gulp: `$ npm install -g gulp`
 
 1. Install dependencies: `$ npm install`
-2. Build: `$ gulp minify`
+2. Build: `$ gulp build`
 
 ## License
 
