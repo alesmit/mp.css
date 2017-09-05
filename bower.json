@@ -1,0 +1,15 @@
+{
+  "name": "mp.css",
+  "authors": [
+    "alesmit <alessandro.mitelli@gmail.com>"
+  ],
+  "description": "CSS utility for common use cases",
+  "main": "index.js",
+  "keywords": [
+    "css",
+    "utility",
+    "mp.css"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/alesmit/mp.css"
+}
