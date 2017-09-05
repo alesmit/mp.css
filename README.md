@@ -5,7 +5,7 @@ mp.css is a set of CSS classes which can be used to style elements in a fast way
 
 ## Getting started
 
-- Download the package or install it with `npm i mp.css --save`
+- Download the package or install it with `npm i mp.css --save` / `bower install mp.css --save`
 - Include __dist/mp.min.css__ in your project
 - Start using mp.css classes to quickly apply style to your elements
 
