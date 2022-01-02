@@ -1,4 +1,9 @@
+# Note
+
+⚠️ This project is no longer maintained. We recommend better alternatives like [Tailwind CSS](https://tailwindcss.com/).
+
 # mp.css
+
 CSS utility classes for common use cases
 
 mp.css is a set of CSS classes which can be used to style elements in a fast way. Just because writing in the `style` attr is ugly :wink:
